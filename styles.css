@@ -1,0 +1,49 @@
+.weather__container.active{
+    margin-left: 30px;
+    border: 3px solid black; 
+    border-radius: 10px;
+    width: 160px;
+    text-align: center;
+    display: block;
+}
+
+/*.forecast__day.active{
+    display: block;
+}
+
+.forecast__day{
+    display: block;
+    padding-left: 30px;
+    margin: 0px;
+}*/
+
+.town_text{
+    padding-left: 180px;
+}
+
+.weather__container{
+    display: none;
+}
+
+.weather__container.active p{
+    color: green;
+}
+
+.week__container{
+    width: 1000px;
+}
+
+.forecast__container{
+    display: inline-block;
+    text-align: center;
+}
+
+.optional_table{
+    display: none;
+}
+
+.optional_table.active{
+    display: table;
+    margin-top: 100px;
+    margin-left: 80px;
+}

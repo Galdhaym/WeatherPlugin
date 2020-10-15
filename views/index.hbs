@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <title>Weather plugin(forecast)</title>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src = "../front.js"></script>
+    <H1>Weather Plugin</H1>
+    <p>Write town</p>
+    <input type="text" id = "cityField">
+    <button id = "searchButton">Search</button>
+    <p>(Three days limit)</p>
+    <H2 class = "town_text"></H2>
+    <p id="error"></p>
+    <div class = "week__container">
+        <div class = "forecast__container">
+            <div  class = "weather__container">
+                <p class = "forecast__day"></p>
+                <p class = "location"></p>
+                <p class = "temp"></p>
+            </div>
+        </div>
+
+        <div class = "forecast__container">
+            <div  class = "weather__container">
+                <p class = "forecast__day"></p>
+                <p class = "location"></p>
+                <p class = "temp"></p>
+            </div>
+        </div>
+
+        <div class = "forecast__container">
+            <div  class = "weather__container">
+                <p class = "forecast__day"></p>
+                <p class = "location"></p>
+                <p class = "temp"></p>
+            </div>
+        </div>
+    </div>
+    <table class = "optional_table" border="1">
+        <tr class = "main_table_titles">
+            <th>Day of week</th>
+            <th>Min temp</th>
+            <th>Max temp</th>
+            <th>Wind speed</th>
+            <th>Average humidity</th>
+        </tr>
+
+    <tr class = "row_day_week">
+        <td class = "day_week"></td>
+        <td class = "min_temp"></td>
+        <td class = "max_temp"></td>
+        <td class = "win_speed"></td>
+        <td class = "avghumidity"></td>
+    </tr>
+
+    <tr class = "row_day_week">
+        <td class = "day_week"></td>
+        <td class = "min_temp"></td>
+        <td class = "max_temp"></td>
+        <td class = "win_speed"></td>
+        <td class = "avghumidity"></td>
+    </tr>
+
+    <tr class = "row_day_week">
+        <td class = "day_week"></td>
+        <td class = "min_temp"></td>
+        <td class = "max_temp"></td>
+        <td class = "win_speed"></td>
+        <td class = "avghumidity"></td>
+    </tr>
+
+    </table>
+    
+</body>
+</html>
